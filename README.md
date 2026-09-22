@@ -134,7 +134,7 @@ This prototype is intentionally small and self-contained. It does **not** attemp
 
 
 ## AI-Use Disclosure
-```
+
 AI tools were used as development assistants during this project. They helped with planning, clarifying technical patterns, and drafting supporting text. All code and design decisions were independently reviewed, edited, tested, and can be explained by the author.
 
 | Tool | How it was used |
@@ -148,4 +148,4 @@ AI tools were used as development assistants during this project. They helped wi
 
 **Declaration:** No AI-generated code, content, or design was submitted without independent review. The author can explain every submitted file and every decision made in it.
 
-```
+

@@ -97,8 +97,9 @@ cd FictionalInsider
 npm install
 
 ```
-```
+
 # 3. Start the development server
+```
 npx expo start
 
 ```

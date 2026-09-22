@@ -129,4 +129,23 @@ This prototype is intentionally small and self-contained. It does **not** attemp
 - **No backend** — no authentication, portfolio, alerts, watchlists, or server component.
 - **No persistence** — filter and search state reset when the app reloads.
 - **Not investment advice** — the app is a UI prototype only and makes no claims about any real security.
+
+
+
+
+## AI-Use Disclosure
+```
+AI tools were used as development assistants during this project. They helped with planning, clarifying technical patterns, and drafting supporting text. All code and design decisions were independently reviewed, edited, tested, and can be explained by the author.
+
+| Tool | How it was used |
+|---|---|
+| **Perplexity AI** | Used to turn the assignment brief into a planning checklist and to clarify the overall project scope and requirement mapping before implementation began. |
+| **DeepSeek** | Used to (1) generate the initial structure of the local fictional mock data array, (2) draft the README sections, and (3) propose initial StyleSheet definitions and design tokens for the three screens. |
+
+**Scope of review:** Every suggestion from these tools was reviewed line-by-line, adapted to this specific project's requirements, and tested in the running app. Mock trade records were verified to be fully fictional and internally consistent. Styles were adjusted to match the mobile design decisions documented above. README sections were rewritten and fact-checked against the assignment brief before being committed.
+
+**What was not AI-generated:** The final architecture, file organization, filter logic, navigation flow, validation against the test checklist, and all bug fixes were performed by the author.
+
+**Declaration:** No AI-generated code, content, or design was submitted without independent review. The author can explain every submitted file and every decision made in it.
+
 ```

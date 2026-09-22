@@ -97,11 +97,11 @@ cd FictionalInsider
 npm install
 
 ```
-
+```
 # 3. Start the development server
 npx expo start
 
-
+```
 
 
 ## Mobile Design Decisions
@@ -128,3 +128,4 @@ This prototype is intentionally small and self-contained. It does **not** attemp
 - **No backend** — no authentication, portfolio, alerts, watchlists, or server component.
 - **No persistence** — filter and search state reset when the app reloads.
 - **Not investment advice** — the app is a UI prototype only and makes no claims about any real security.
+```

@@ -23,7 +23,7 @@ The goal is **clarity and speed on a small screen**, not investment guidance.
 - **StockInsider.io was not used as a data, copy, or UI source.** No screens, wording, layouts, colors, transaction values, or datasets were copied.
 - **All data is local fictional mock/demo data.** Every company, ticker, insider name, value, date, and signal is invented for demonstration.
 - The app makes **no network or API calls**, contains **no live filing data**, and does not scrape or download any external content.
-- Safe summary: *Original mobile concept inspired by the broad insider-activity product category; all displayed content is fictional mock/demo data.*
+- Safe summary: *Mobile concept inspired by the broad insider-activity product category; all displayed content is fictional mock/demo data.*
 
 ---
 

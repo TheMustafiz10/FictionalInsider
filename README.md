@@ -100,3 +100,31 @@ npm install
 
 # 3. Start the development server
 npx expo start
+
+
+
+
+## Mobile Design Decisions
+
+The UI was designed specifically for small screens and quick scanning. Key decisions:
+
+- **High scanability** — each trade card follows the same predictable vertical rhythm:
+  `ticker → company → value → insider → time`. Users can scan a list in seconds without re-reading structure each time.
+- **Filter chips instead of dropdowns** — one tap per filter, visible selection state, and chips wrap on narrow screens so no option is hidden or clipped.
+- **Text + color + arrow for transaction semantics** — Purchase is shown as `↑ Purchase` in green, Sale as `↓ Sale` in orange. Meaning is conveyed by three signals (text, icon, color), not color alone, so the UI remains usable for color-blind users.
+- **8-point spacing rhythm** — spacing uses `8 / 12 / 16 / 20 / 24 px`, with 14–18 px corner radii and subtle borders instead of heavy shadows.
+- **Flexible widths** — no fixed card widths. Long company names truncate cleanly (`numberOfLines={1}`) instead of breaking the layout on narrow devices.
+- **Actionable empty states** — the Screener's no-results view offers a one-tap **Clear filters** button so the user is never stuck.
+- **Fictional-data signaling** — a *Fictional demo data* badge is visible on Home, and a *FICTIONAL DEMO DATA* badge is visible on Details, so the prototype can never be mistaken for live market information.
+
+---
+
+## Known Limitations
+
+This prototype is intentionally small and self-contained. It does **not** attempt to be a real financial product.
+
+- **Static local data only** — all trades live in [`src/data/mockTrades.ts`](src/data/mockTrades.ts).
+- **No live filings** — no SEC feed, no market API, no scraping, no downloaded datasets.
+- **No backend** — no authentication, portfolio, alerts, watchlists, or server component.
+- **No persistence** — filter and search state reset when the app reloads.
+- **Not investment advice** — the app is a UI prototype only and makes no claims about any real security.

@@ -1,7 +1,7 @@
 # FictionalInsider
 
-
 A Mobile-first concept for scanning **fictional** disclosed-insider activity. This is a prototype — **not an investing tool**, and it does not display real market data.
+
 
 ---
 

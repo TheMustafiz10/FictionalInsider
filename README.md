@@ -112,7 +112,7 @@ The UI was designed specifically for small screens and quick scanning. Key decis
 - **High scanability** — each trade card follows the same predictable vertical rhythm:
   `ticker → company → value → insider → time`. Users can scan a list in seconds without re-reading structure each time.
 - **Filter chips instead of dropdowns** — one tap per filter, visible selection state, and chips wrap on narrow screens so no option is hidden or clipped.
-- **Text + color + arrow for transaction semantics** — Purchase is shown as `↑ Purchase` in green, Sale as `↓ Sale` in orange. Meaning is conveyed by three signals (text, icon, color), not color alone, so the UI remains usable for color-blind users.
+- **Text + color + arrow for transaction semantics** — Purchase is shown as `↑ Purchase` in green, Sale as `↓ Sale` in red. Meaning is conveyed by three signals (text, icon, color), not color alone, so the UI remains usable for color-blind users.
 - **8-point spacing rhythm** — spacing uses `8 / 12 / 16 / 20 / 24 px`, with 14–18 px corner radii and subtle borders instead of heavy shadows.
 - **Flexible widths** — no fixed card widths. Long company names truncate cleanly (`numberOfLines={1}`) instead of breaking the layout on narrow devices.
 - **Actionable empty states** — the Screener's no-results view offers a one-tap **Clear filters** button so the user is never stuck.
